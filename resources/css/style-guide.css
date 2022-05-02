@@ -1,0 +1,111 @@
+* {
+    font-family: Helvetica, arial, sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+/* Header */
+header h1 {
+    text-align: center;
+}
+
+/* Navigation Bar */
+
+nav {
+    text-align: right;
+    margin-right: 25px;
+}
+
+/* Global section styles */
+
+section {
+    border: 1px solid black;
+    margin: 25px;
+}
+
+section h2{
+    margin: 5px;
+}
+
+/* Color Section */
+
+.colors p {
+    text-align: center;
+    font-size: 26px;
+    height: 64px;
+    width: 128px;
+    margin: 20px;
+    padding-top: 16px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.colors .blue {
+    background-color: #0482ff;
+    color: white;
+}
+
+.colors .lightgreen {
+    background-color: #cdff9b;
+    color: black;
+}
+
+.colors .orange {
+    background-color: #bc4218;
+    color: white;
+}
+
+/* Font Section */
+.font-panel {
+    margin: 10px;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.radio-canada {
+    font-family: 'Radio Canada';
+}
+
+.raleway {
+    font-family: 'Raleway';
+}
+
+.press-start-2p {
+    font-family: 'Press Start 2P';
+}
+
+/* Text Styles */
+
+.text-styles h1 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* footer section */
+
+footer {
+    border: 1px solid black;
+    margin: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Misc */
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
